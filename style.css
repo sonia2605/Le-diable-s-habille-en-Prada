@@ -13,7 +13,7 @@ font-family : 'Roboto', sans-serif ;
 h1 {
     font-weight: lighter;
     letter-spacing: 0.6em;
-    font-size: 35px;
+    font-size: 28px;
     text-align: center;
     padding: 32px 0;
 }
@@ -22,6 +22,14 @@ h1 {
     max-width: 800px;
     margin: 0 auto; 
     height: auto;
+}
+.image {
+    width: 80%;
+    max-width: 600px;
+    border : 5px solid red;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .question-block {
@@ -33,15 +41,15 @@ h1 {
 
 .question-block h4 {
     padding: 10px 0;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .question-block label {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .question-block input[type="radio"]{
-    transform: scale(1.8);
+    transform: scale(1.5);
     margin: 10px;
 }
 
@@ -84,7 +92,7 @@ form button {
 }
 
 form button:hover {
-    background-color: darkseagreen;
+    background-color: rgb(219, 52, 116);
 }
 
 .echec {
