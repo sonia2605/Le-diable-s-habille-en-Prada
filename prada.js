@@ -109,9 +109,9 @@ function couleursFonction(tabValBool) {
     for(let j = 0; j < tabValBool.length; j++){
 
         if(tabValBool[j] === true){
-            toutesLesQuestions[j].style.background = 'lightgreen';
+            toutesLesQuestions[j].style.background = '#f2f2f2';
         } else {
-            toutesLesQuestions[j].style.background = '#ffb8b8';
+            toutesLesQuestions[j].style.background = '#C75D50';
             toutesLesQuestions[j].classList.add('echec');
 
             setTimeout(() => {
